@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-@#51y65c$la!$1(nlimolsqw&mrggo7#39ydz8fppcr1t+429d
 # DEBUG com valor False = modo produção
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://projetodjango-damiaoribeiro.herokuapp.com/']
 
 
 # Application definition
