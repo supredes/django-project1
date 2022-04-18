@@ -20,7 +20,7 @@ from django.conf.urls import handler404
 
 urlpatterns = [
     path('painel/', admin.site.urls),
-    path('', include('core.urls'))   # Estou informando que as minhas rotas serão porcessadas na aplicação core.urls
+    path('', include('core.urls'))   # Estou informando que as minhas rotas serão processadas na aplicação core.urls
 ]
 from core import views
 
